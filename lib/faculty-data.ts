@@ -75,7 +75,7 @@ With a specialization in Biomedical Signal and Image Processing, Mr. Karim is ac
       {
         degree: "Ph.D. (EEE)",
         institution: "BUET",
-        year: "Ongoing"
+        year: "Ongoings"
       },
       {
         degree: "M.Sc. (EEE)",
