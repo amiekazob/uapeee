@@ -75,7 +75,7 @@ With a specialization in Biomedical Signal and Image Processing, Mr. Karim is ac
       {
         degree: "Ph.D. (EEE)",
         institution: "BUET",
-        year: "Ongoings"
+        year: "Ongoing"
       },
       {
         degree: "M.Sc. (EEE)",
@@ -442,7 +442,7 @@ With a specialization in Biomedical Signal and Image Processing, Mr. Karim is ac
   {
   id: "dr-g-r-ahmed-jamal",
   name: "Dr. G. R. Ahmed Jamal",
-  title: "Professor",
+  title: "Dean & Professor",
   role: "Professor",
   image: "/images/faculties/dr-g-r-ahmed-jamal.jpg",
   bio: "Dr. G. R. Ahmed Jamal is a Professor in the Department of Electrical and Electronic Engineering at UAP. His academic focus includes nano materials and nano electronics. He has a strong background in both teaching and research in these fields.",
