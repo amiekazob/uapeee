@@ -1,5 +1,3 @@
-"use client"
-
 import React, { use } from 'react'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
@@ -10,6 +8,13 @@ import { ChevronLeft, Calendar, Trophy, Award, Star, ExternalLink } from 'lucide
 import { cn } from '@/lib/utils'
 import { AnimatedSection } from "@/components/ui/animated-section"
 import { achievementsData, formatDate } from '@/lib/achievements-data'
+
+// Generate static params for all achievements
+export async function generateStaticParams() {
+  return achievementsData.map((achievement) => ({
+    id: achievement.id,
+  }))
+}
 
 interface AchievementDetailPageProps {
   params: Promise<{

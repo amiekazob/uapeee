@@ -2,6 +2,13 @@ import { notFound } from 'next/navigation'
 import { NewsEvents, formatDate } from '@/lib/events-data'
 import NewsClientPage from './client-page'
 
+// Generate static params for all news entries
+export async function generateStaticParams() {
+  return NewsEvents.map((event) => ({
+    slug: event.link.replace('/news/', ''),
+  }))
+}
+
 interface NewsPageProps {
   params: {
     slug: string

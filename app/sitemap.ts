@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next'
 import { loadAllFacultyData } from '@/lib/faculty-loader'
 import { events } from '@/lib/events-data'
 
+export const dynamic = 'force-static'
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://uap-eee.edu.bd'
   

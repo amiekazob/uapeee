@@ -1,5 +1,3 @@
-"use client"
-
 import React, { use } from 'react'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
@@ -10,6 +8,13 @@ import { ChevronLeft, User, MapPin, GraduationCap, Users, Heart, Trophy, BookOpe
 import { cn } from '@/lib/utils'
 import { AnimatedSection } from "@/components/ui/animated-section"
 import { studentLifeData } from '@/lib/student-life-data'
+
+// Generate static params for all student life entries
+export async function generateStaticParams() {
+  return studentLifeData.map((entry) => ({
+    id: entry.id,
+  }))
+}
 
 interface StudentLifeDetailPageProps {
   params: Promise<{

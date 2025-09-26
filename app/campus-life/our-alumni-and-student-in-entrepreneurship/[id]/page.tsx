@@ -1,5 +1,3 @@
-"use client"
-
 import React, { use } from 'react'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
@@ -10,6 +8,13 @@ import { ChevronLeft, Calendar, Building, Users, DollarSign, ExternalLink, Star,
 import { cn } from '@/lib/utils'
 import { AnimatedSection } from "@/components/ui/animated-section"
 import { entrepreneurshipData, formatDate } from '@/lib/entrepreneurship-data'
+
+// Generate static params for all entrepreneurship entries
+export async function generateStaticParams() {
+  return entrepreneurshipData.map((entry) => ({
+    id: entry.id,
+  }))
+}
 
 interface EntrepreneurshipDetailPageProps {
   params: Promise<{
