@@ -103,6 +103,9 @@ export function Navbar() {
                       <LoadingLink href="/mission-vision" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
                         Mission & Vision
                       </LoadingLink>
+                      <LoadingLink href="/poe" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
+                        POE
+                      </LoadingLink>
                     </div>
                   </div>
                 )}
@@ -292,6 +295,7 @@ export function Navbar() {
                     <div className="pl-4 mt-2 space-y-2">
                       <LoadingLink href="/about-us" className="block py-1 text-sm text-gray-600">About Us</LoadingLink>
                       <LoadingLink href="/mission-vision" className="block py-1 text-sm text-gray-600">Mission & Vision</LoadingLink>
+                      <LoadingLink href="/poe" className="block py-1 text-sm text-gray-600">POE</LoadingLink>
                     </div>
                   )}
                 </div>
