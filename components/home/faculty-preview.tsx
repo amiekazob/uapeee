@@ -1,9 +1,10 @@
 "use client"
 
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { facultyMembers } from "@/lib/faculty-data"
+import { loadFacultyDataClient } from "@/lib/faculty-loader"
+import { FacultyMember } from "@/app/faculty/dr-g-r-ahmed-jamal/data"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -12,6 +13,37 @@ import { AnimatedSection } from "@/components/ui/animated-section"
 import { StaggeredGrid, StaggeredItem } from "@/components/ui/staggered-container"
 
 export function FacultyPreview() {
+  const [facultyMembers, setFacultyMembers] = useState<FacultyMember[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadFaculty = async () => {
+      try {
+        const data = await loadFacultyDataClient();
+        setFacultyMembers(data);
+      } catch (error) {
+        console.error('Failed to load faculty data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadFaculty();
+  }, []);
+
+  if (loading) {
+    return (
+      <section className="mb-10 relative overflow-hidden">
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center py-16">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto"></div>
+            <p className="mt-4 text-gray-600">Loading faculty information...</p>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   // Show first 3 professors
   const professors = facultyMembers.filter(m => m.role === 'Professor').slice(0, 3);
   const previewFaculty = professors;

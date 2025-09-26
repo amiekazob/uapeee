@@ -6,12 +6,12 @@ import { StaggeredContainer, StaggeredItem } from "@/components/ui/staggered-con
 
 const stats = [
   {
-    value: 25,
+    value: 35,
     label: "Faculty Members",
     suffix: "+",
   },
   {
-    value: 1650,
+    value: 1500,
     label: "Alumni",
     suffix: "+",
   },

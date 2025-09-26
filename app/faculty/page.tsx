@@ -170,21 +170,20 @@ export default function FacultyPage() {
   // Find HOD - can be 'HOD' or any role containing 'Head'
   const hod = facultyMembers.find(m => m.role === 'HOD' || m.role.includes('Head'));
   
-  // Filter faculty members by role, excluding HOD and on-leave faculty from other categories
+  // Filter faculty members by role, excluding HOD but including on-leave faculty in their regular segments
   const professors = facultyMembers.filter(m => 
-    m.role === 'Professor' && m.role !== 'HOD' && !m.role.includes('Head') && !m.title.includes('(On Leave)')
+    m.role === 'Professor' && m.role !== 'HOD' && !m.role.includes('Head')
   );
   const associateProfessors = facultyMembers.filter(m => 
     (m.role === 'Associate Professor' || m.role.includes('Associate Professor')) && 
-    m.role !== 'HOD' && !m.role.includes('Head') && !m.title.includes('(On Leave)')
+    m.role !== 'HOD' && !m.role.includes('Head')
   );
   const assistantProfessors = facultyMembers.filter(m => 
-    m.role === 'Assistant Professor' && m.role !== 'HOD' && !m.role.includes('Head') && !m.title.includes('(On Leave)')
+    m.role === 'Assistant Professor' && m.role !== 'HOD' && !m.role.includes('Head')
   );
   const lecturers = facultyMembers.filter(m => 
-    m.role === 'Lecturer' && !m.role.includes('Head') && !m.title.includes('(On Leave)')
+    m.role === 'Lecturer' && !m.role.includes('Head')
   );
-  const onLeaveFaculty = facultyMembers.filter(m => m.title.includes('(On Leave)'));
 
   const FacultySection = ({ title, members, bgColor = "bg-gray-50" }: { title: string; members: FacultyMember[]; bgColor?: string }) => {
     if (members.length === 0) return null;
@@ -253,7 +252,6 @@ export default function FacultyPage() {
         <FacultySection title="Associate Professors" members={associateProfessors} bgColor="bg-indigo-50" />
         <FacultySection title="Assistant Professors" members={assistantProfessors} bgColor="bg-purple-50" />
         <FacultySection title="Lecturers" members={lecturers} bgColor="bg-gray-50" />
-        <FacultySection title="On Leave Faculty" members={onLeaveFaculty} bgColor="bg-orange-50" />
       </div>
     </div>
   );

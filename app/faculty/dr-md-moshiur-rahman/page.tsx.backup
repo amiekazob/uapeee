@@ -1,0 +1,41 @@
+import { facultyMembers } from '@/lib/faculty-data';
+import { FacultyProfileTemplate } from '@/components/faculty/faculty-profile-template';
+import { notFound } from 'next/navigation';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
+import { Metadata } from 'next';
+
+const facultyId = "dr-md-moshiur-rahman";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const member = facultyMembers.find(m => m.id === facultyId);
+  
+  if (!member) {
+    return {
+      title: 'Faculty Member Not Found',
+      description: 'The requested faculty member could not be found.'
+    };
+  }
+
+  return generateSEOMetadata({
+    title: `${member.name} - ${member.title}`,
+    description: `Learn about ${member.name}, ${member.title} at UAP EEE Department. ${member.bio.substring(0, 150)}...`,
+    keywords: `${member.name}, UAP faculty, ${member.title}, electrical engineering professor, ${member.researchInterests.join(', ')}`,
+    url: `https://uap-eee.edu.bd/faculty/${member.id}`,
+    image: member.image
+  });
+}
+
+export default function FacultyProfilePage() {
+  const member = facultyMembers.find(m => m.id === facultyId);
+
+  if (!member) {
+    notFound();
+  }
+
+  const customizations = {
+    headerStyle: 'default' as const,
+    showBackButton: true
+  };
+
+  return <FacultyProfileTemplate member={member} customizations={customizations} />;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
-import { AcademicProfile } from '@/lib/faculty-data';
+import { AcademicProfile } from '@/app/faculty/dr-g-r-ahmed-jamal/data';
 
 interface AcademicProfileIconsProps {
   profiles: AcademicProfile[];

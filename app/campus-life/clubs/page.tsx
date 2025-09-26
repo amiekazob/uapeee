@@ -48,6 +48,14 @@ const clubs: Club[] = [
     category: 'Academic',
     image: '/images/campus%20life/clubs/math-club.jpg'
   },
+    {
+  id: 'career-counseling-club',
+  name: 'Career and Counseling Club',
+  description: 'Supporting students with career development, guidance, and counseling for future success.',
+  icon: <Code className="w-5 h-5" />,
+  category: 'Non-Technical',
+  image: '/images/campus life/clubs/career-counseling-club.jpg'
+},
   {
     id: 'debate-club',
     name: 'Debate Club',
@@ -80,6 +88,9 @@ const clubs: Club[] = [
     category: 'Cultural',
     image: '/images/campus%20life/clubs/cultural-club.jpg'
   }
+
+
+
 ]
 
 function ClubCard({ club }: { club: Club }) {

@@ -1,9 +1,12 @@
 import { MetadataRoute } from 'next'
-import { facultyMembers } from '@/lib/faculty-data'
+import { loadAllFacultyData } from '@/lib/faculty-loader'
 import { events } from '@/lib/events-data'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://uap-eee.edu.bd'
+  
+  // Load faculty data dynamically
+  const facultyMembers = await loadAllFacultyData();
   
   // Static pages
   const staticPages = [

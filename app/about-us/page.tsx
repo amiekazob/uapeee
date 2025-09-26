@@ -107,14 +107,14 @@ const achievements: Achievement[] = [
     title: 'Students Graduated',
     description: 'Proud alumni working globally',
     icon: <GraduationCap className="w-8 h-8" />,
-    value: '1,600+'
+    value: '1,500+'
   },
   {
     id: '2',
     title: 'Faculty Members',
     description: 'Experienced and qualified educators',
     icon: <Users className="w-8 h-8" />,
-    value: '25+'
+    value: '35+'
   },
   {
     id: '3',
@@ -187,7 +187,7 @@ export default function AboutUsPage() {
               </div>
               <div className="flex items-center space-x-2">
                 <GraduationCap className="w-5 h-5" />
-                <span>1600+ Graduates</span>
+                <span>1500+ Graduates</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Globe className="w-5 h-5" />

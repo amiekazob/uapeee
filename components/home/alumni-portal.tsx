@@ -22,7 +22,7 @@ export function AlumniPortal() {
           
           <div className="flex justify-center">
             <Link 
-              href="https://alumni-eee.uap-bd.edu" 
+              href="https://alumni-eeee.uap-bd.edu" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group"

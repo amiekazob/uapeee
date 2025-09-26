@@ -27,51 +27,6 @@ const completedTours: Tour[] = [
     participants: 45,
     image: '/placeholder.jpg',
     description: 'Students explored modern power generation facilities and learned about electrical grid systems.'
-  },
-  {
-    id: '2',
-    title: 'Cox\'s Bazar Research Trip',
-    destination: 'Cox\'s Bazar Beach',
-    date: '2023-10-20',
-    participants: 30,
-    image: '/placeholder.jpg',
-    description: 'Marine engineering research expedition studying coastal systems and wave energy.'
-  },
-  {
-    id: '3',
-    title: 'Sundarbans Eco Tour',
-    destination: 'Sundarbans National Park',
-    date: '2023-09-12',
-    participants: 25,
-    image: '/placeholder.jpg',
-    description: 'Environmental engineering study tour focusing on sustainable technology in nature.'
-  },
-  {
-    id: '4',
-    title: 'Smart City Tour',
-    destination: 'Dhaka Metropolitan',
-    date: '2023-08-18',
-    participants: 40,
-    image: '/placeholder.jpg',
-    description: 'Exploration of smart city infrastructure and IoT implementations in urban areas.'
-  },
-  {
-    id: '5',
-    title: 'Hill Tracts Adventure',
-    destination: 'Bandarban Hills',
-    date: '2023-07-25',
-    participants: 20,
-    image: '/placeholder.jpg',
-    description: 'Remote area engineering solutions and off-grid renewable energy systems study.'
-  },
-  {
-    id: '6',
-    title: 'Tea Garden Technology',
-    destination: 'Sylhet Tea Gardens',
-    date: '2023-06-10',
-    participants: 35,
-    image: '/placeholder.jpg',
-    description: 'Agricultural automation and processing technology tour in scenic tea plantations.'
   }
 ]
 

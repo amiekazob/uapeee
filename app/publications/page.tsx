@@ -1,6 +1,172 @@
 'use client'
 
 export default function PublicationsPage() {
+  // 2024 Publications Data
+  const publications2024 = [
+    {
+      id: 1,
+      sl: 1,
+      author: "Dr. Tapan Kumar Chakraborty",
+      designation: "Professor",
+      papers: [
+        {
+          title: "Experimental Study of 13-Level Cascaded H-Bridge Multilevel Inverter Using Sinusoidal Switching Angle Technique",
+          journal: "Proceedings of IEEE 8th International Conference on Green Energy and Applications (ICGEA 2024), NTU, Singapore, pp.12-16, March 14-16, 2024, IEEE Xplore, https://doi.org/10.1109/ICGEA60749.2024.10561187.",
+          type: "International"
+        },
+        {
+          title: "A Study of Dual Active Bridge Converter Performance",
+          journal: "Proceedings of 2024 IEEE Asia Pacific Conference on Innovation in Technology (APCIT), pp.1-7, 26-27 July, 2024, Mysore, Karnataka, India., IEEE Xplore, https://doi.org/10.1109/APCIT62007.2024.10673580",
+          type: "International"
+        },
+        {
+          title: "Harmonics Mitigation in Multilevel Inverter Controlled by Equal-Step Angle and Sinusoidal Switching Angle Strategy with Increased Number of Voltage Levels Using PSIM Software",
+          journal: "Proceedings of 2024 IEEE 4th International Symposium on Electrical, Electronics and Information Engineering (ISEEIE 2024), August 28-30, 2024, pp. 109-114, University of Leicester, United Kingdom, IEEE Xplore, DOI: 10.1109/ISEEIE62461.2024.00028.",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 2,
+      sl: 4,
+      author: "Khaled Mahmud",
+      designation: "Assistant Professor",
+      papers: [
+        {
+          title: "First-principles calculations on monolayer WX2 (X = S, Se) as an effective drug delivery carrier for anti-tuberculosis drugs",
+          journal: "Nanoscale Advances, published by RSC Nanoscale Adv., 2024,6, 2447-2458 DOI: https://doi.org/10.1039/D3NA01095C",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 3,
+      sl: 5,
+      author: "Dr. Tasnia Hossain",
+      designation: "Assistant Professor",
+      papers: [
+        {
+          title: "Comparison between two structures of CZTS thin film solar cell and Impact of defects on different layers and their interfaces",
+          journal: "3rd International Conference on Power Systems and Electrical Technology (PSET 2024), 5-8 August, 2024, Tokyo, Japan; IEEE Xplore, pp. 47-51, 30 December 2024, DOI: 10.1109/PSET62496.2024.10808523",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 4,
+      sl: 6,
+      author: "Dewan Ashikur Rahaman",
+      designation: "Assistant Professor",
+      papers: [
+        {
+          title: "Harmonics Mitigation in Multilevel Inverter Controlled by Equal-Step Angle and Sinusoidal Switching Angle Strategy with Increased Number of Voltage Levels Using PSIM Software",
+          journal: "Proceedings of 2024 IEEE 4th International Symposium on Electrical, Electronics and Information Engineering (ISEEIE 2024), August 28-30, 2024, pp. 109-114, University of Leicester, United Kingdom, IEEE Xplore, DOI: 10.1109/ISEEIE62461.2024.00028.",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 5,
+      sl: 7,
+      author: "Dr. Md. Shofiqul Islam",
+      designation: "Associate Professor",
+      papers: [
+        {
+          title: "X-Shaped Exposed Core Highly Sensitive Plasmonic Sensor for Cancer Cell Detection",
+          journal: "Optical and Quantum Electronics, Vol. 56, No. 718, pp. 1 – 27, Published: 11 Mar 2024. DOI: https://doi.org/10.1007/s11082-024-06392-w",
+          type: "International"
+        },
+        {
+          title: "Design and Characterization of Highly Sensitive Plasmonic Sensor for Pathogens Detection in Water",
+          journal: "Optical and Quantum Electronics, Vol. 56, No. 781, pp. 1 – 16, Published: 25 Mar 2024. DOI: https://doi.org/10.1007/s11082-024-06477-6",
+          type: "International"
+        },
+        {
+          title: "Rapid one pot syntheses of magnetic Zn1-xFexS nanostructures: Enhancing properties of ZnS material for effective photocatalytic application",
+          journal: "Ceramics International, Vol. 50, pp. 16131-16141, Published: 09 Feb 2024. DOI: https://doi.org/10.1016/j.ceramint.2024.02.093",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 6,
+      sl: 10,
+      author: "Sakhawat Hossen Rakib",
+      designation: "Assistant Professor",
+      papers: [
+        {
+          title: "Computational identification of Vernonia cinerea-derived phytochemicals as potential inhibitors of nonstructural protein 1 (NSP1) in dengue virus serotype-2",
+          journal: "DOI: http://dx.doi.org/10.3389/fphar.2024.1465827",
+          type: "International"
+        },
+        {
+          title: "Integrated strategy: Identifying SARS-CoV-2 strains in communities via wastewater monitoring and clinical diagnosis",
+          journal: "DOI: 10.1016/j.scitotenv.2023.168617",
+          type: "International"
+        },
+        {
+          title: "Design and development of a portable UVC chamber for rapid disinfection of Medical Diagnostic tools",
+          journal: "13th International Conference on Electrical and Computer Engineering (ICECE) (IEEE)",
+          type: "International"
+        },
+        {
+          title: "Design of a rectangular patch antenna-based electrolyte sensor for palmar hyperhidrosis patients.",
+          journal: "27th International Conference on Computer and Information Technology. (IEEE)",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 7,
+      sl: 14,
+      author: "Akil Ahmad Taki",
+      designation: "Assistant Professor",
+      papers: [
+        {
+          title: "Performance prediction and optimization of a high-efficiency tessellated diamond fractal MIMO antenna for terahertz 6G communication using machine learning approaches",
+          journal: "Scientificreports-Nature DOI: https://doi.org/10.1038/s41598-025-88174-2",
+          type: "International"
+        },
+        {
+          title: "Attention Gated Multi-Axial Fusion Network for Brain MRI Lesion Segmentation",
+          journal: "International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT) DOI: https://doi.org/10.1109/ICEEICT62016.2024.10534354",
+          type: "International"
+        },
+        {
+          title: "Optimized Control Strategy for Self-Balancing Robot: Micro-Stepping Motors and PID Algorithm",
+          journal: "International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON) DOI: https://doi.org/10.1109/RAAICON64172.2024.10928610",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 8,
+      sl: 17,
+      author: "Mr. A.H.M Zadidul Karim",
+      designation: "Associate Professor",
+      papers: [
+        {
+          title: "COVID-19, Pneumonia, and Healthy Lungs Classification Using CNN and Transfer Learning Model Using Chest X-Ray",
+          journal: "American Journal of Biomedical Engineering, Vol. 12(1), PP. 1-6 doi:10.5923/j.ajbe.20241201.01",
+          type: "International"
+        }
+      ]
+    },
+    {
+      id: 9,
+      sl: 18,
+      author: "Muhammad Ahad Rahman Miah",
+      designation: "Assistant Professor",
+      papers: [
+        {
+          title: "IoT Integrated Rooftop Solar PV System for Performance Evaluation and Monitoring: A Prosumer and Utility Approach",
+          journal: "13th International Conference on Power Science and Engineering (ICPSE), September 13-15, 2024, Ankara, Turkey",
+          type: "International"
+        }
+      ]
+    }
+  ];
+
   // 2020 Publications Data
   const publications2019 = [
     {
@@ -1131,6 +1297,59 @@ export default function PublicationsPage() {
       {/* Publications Content */}
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">
+          {/* Year 2024 Section */}
+          <div className="mb-16">
+            <div className="flex items-center mb-8">
+              <div className="h-1 bg-purple-600 flex-grow"></div>
+              <h2 className="text-3xl font-bold text-gray-800 mx-6">2024 Publications</h2>
+              <div className="h-1 bg-purple-600 flex-grow"></div>
+            </div>
+            
+            <div className="space-y-8">
+              {publications2024.map((author) => (
+                <div key={author.id} className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                  <div className="p-6">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <span className="inline-block bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full mb-2">
+                          SL# {author.sl}
+                        </span>
+                        <h3 className="text-xl font-semibold text-gray-900">
+                          {author.author}
+                        </h3>
+                        <p className="text-gray-600 text-sm">{author.designation}</p>
+                      </div>
+                      <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded">
+                        {author.papers.length} Publication{author.papers.length > 1 ? 's' : ''}
+                      </span>
+                    </div>
+                    
+                    <div className="space-y-4">
+                      {author.papers.map((paper, index) => (
+                        <div key={index} className="border-l-4 border-purple-500 pl-4 py-2">
+                          <h4 className="text-lg font-medium text-gray-900 mb-2 leading-relaxed">
+                            {paper.title}
+                          </h4>
+                          <p className="text-gray-700 mb-2 text-sm leading-relaxed">
+                            <strong>Published in:</strong> {paper.journal}
+                          </p>
+                          <div className="flex items-center gap-2">
+                            <span className="inline-block bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded">
+                              {paper.type}
+                            </span>
+                            <span className="text-xs text-gray-500">
+                              Year: 2024
+                            </span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Year 2023 Section */}
           <div className="mb-16">
             <div className="flex items-center mb-8">
@@ -1393,34 +1612,41 @@ export default function PublicationsPage() {
 
           {/* Statistics Section */}
           <div className="mt-16">
-            <h3 className="text-2xl font-bold text-center text-gray-800 mb-8">Publication Statistics (2019-2023)</h3>
+            <h3 className="text-2xl font-bold text-center text-gray-800 mb-8">Publication Statistics (2019-2024)</h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg">
                 <div className="text-3xl font-bold text-blue-600 mb-2">
-                  {publications2023.reduce((total, author) => total + author.papers.length, 0) + publications2022.reduce((total, author) => total + author.papers.length, 0) + publications2021.reduce((total, author) => total + author.papers.length, 0) + publications2020.reduce((total, author) => total + author.papers.length, 0) + publications2019.reduce((total, author) => total + author.papers.length, 0)}
+                  {publications2024.reduce((total, author) => total + author.papers.length, 0) + publications2023.reduce((total, author) => total + author.papers.length, 0) + publications2022.reduce((total, author) => total + author.papers.length, 0) + publications2021.reduce((total, author) => total + author.papers.length, 0) + publications2020.reduce((total, author) => total + author.papers.length, 0) + publications2019.reduce((total, author) => total + author.papers.length, 0)}
                 </div>
                 <div className="text-gray-700 font-medium">Total Publications</div>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-lg">
                 <div className="text-3xl font-bold text-green-600 mb-2">
-                  {new Set([...publications2023.map(a => a.author), ...publications2022.map(a => a.author), ...publications2021.map(a => a.author), ...publications2020.map(a => a.author), ...publications2019.map(a => a.author)]).size}
+                  {new Set([...publications2024.map(a => a.author), ...publications2023.map(a => a.author), ...publications2022.map(a => a.author), ...publications2021.map(a => a.author), ...publications2020.map(a => a.author), ...publications2019.map(a => a.author)]).size}
                 </div>
                 <div className="text-gray-700 font-medium">Contributing Authors</div>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg">
                 <div className="text-3xl font-bold text-purple-600 mb-2">
-                  {publications2023.reduce((total, author) => total + author.papers.length, 0) + publications2022.reduce((total, author) => total + author.papers.length, 0) + publications2021.reduce((total, author) => total + author.papers.length, 0) + publications2020.reduce((total, author) => total + author.papers.length, 0) + publications2019.reduce((total, author) => total + author.papers.length, 0)}
+                  {publications2024.reduce((total, author) => total + author.papers.length, 0) + publications2023.reduce((total, author) => total + author.papers.length, 0) + publications2022.reduce((total, author) => total + author.papers.length, 0) + publications2021.reduce((total, author) => total + author.papers.length, 0) + publications2020.reduce((total, author) => total + author.papers.length, 0) + publications2019.reduce((total, author) => total + author.papers.length, 0)}
                 </div>
                 <div className="text-gray-700 font-medium">International Publications</div>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg">
-                <div className="text-3xl font-bold text-yellow-600 mb-2">5</div>
+                <div className="text-3xl font-bold text-yellow-600 mb-2">6</div>
                 <div className="text-gray-700 font-medium">Years Covered</div>
               </div>
             </div>
             
             {/* Year-wise breakdown */}
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-5 gap-4">
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-6 gap-4">
+              <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border-2 border-purple-200">
+                <div className="text-2xl font-bold text-purple-600 mb-2">
+                  {publications2024.reduce((total, author) => total + author.papers.length, 0)}
+                </div>
+                <div className="text-gray-700 font-medium">2024 Publications</div>
+                <div className="text-sm text-gray-500 mt-1">{publications2024.length} Authors</div>
+              </div>
               <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border-2 border-blue-200">
                 <div className="text-2xl font-bold text-blue-600 mb-2">
                   {publications2023.reduce((total, author) => total + author.papers.length, 0)}

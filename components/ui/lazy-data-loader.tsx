@@ -47,7 +47,7 @@ export function useLazyData<T>(importFn: () => Promise<{ default: T } | T>, deps
 
 // Specific hooks for different data types
 export function useLazyFacultyData() {
-  return useLazyData(() => import('@/lib/faculty-data').then(m => m.facultyMembers))
+  return useLazyData(() => import('@/lib/faculty-loader').then(m => m.loadFacultyDataClient()))
 }
 
 // Publications data loader removed - publications page now uses static content
