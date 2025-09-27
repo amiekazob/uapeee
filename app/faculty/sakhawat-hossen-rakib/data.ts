@@ -84,7 +84,7 @@ export const facultyData: FacultyMember = {
   "role": "Assistant Professor",
   "points": 65,
   "image": "/images/faculties/sakhawat-hossen-rakib.jpg",
-  "bio": "Lecturer in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Specializes in biomedical engineering, sensor design, and disinfection systems with extensive research experience in healthcare technology and antimicrobial systems.",
+  "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Specializes in biomedical engineering, sensor design, and disinfection systems with extensive research experience in healthcare technology and antimicrobial systems.",
   "email": "sakhawat.hossen.rakib@uap-bd.edu",
   "phone": "",
   "room": "",
