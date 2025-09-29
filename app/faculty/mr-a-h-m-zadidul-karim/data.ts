@@ -71,7 +71,7 @@ export const facultyData: FacultyMember = {
   "points": 97,
   "image": "/images/faculties/mr-a-h-m-zadidul-karim.jpg",
   "bio": "A. H. M. Zadidul Karim is an Associate Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He is currently pursuing his PhD in Deep learning based breast cancer detection and classification schemes using medical images from BUET. His research interests include medical image processing, deep learning applications in healthcare, cardiac signal analysis, and digital circuit design. He has extensive experience in teaching and research with over 16 years of academic service at UAP.",
-  "email": "zadidul.karim@uap-bd.edu",
+  "email": "headeee@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
