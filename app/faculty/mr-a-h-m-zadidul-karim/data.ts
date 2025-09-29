@@ -131,6 +131,16 @@ export const facultyData: FacultyMember = {
   "recentPublications": {
     "journalPapers": [
       {
+  "type": "journal",
+  "title": "Peak Detection and Tracking of PPG Signal: A Multi model approach using Empirical Mode Decomposition & Machine Learning",
+  "authors": "A.H.M. Zadidul Karim, Kazi Bil Oual Mahmud, Celia Shahnaz",
+  "venue": "Informatics in Medicine Unlocked",
+  "year": "2025",
+  "volume": "52",
+  "pages": "101686",
+  "date": "February 2025"
+},
+      {
         "type": "journal",
         "title": "COVID-19, Pneumonia, and Healthy Lungs Classification Using CNN and Transfer Learning Model Using Chest X-Ray",
         "authors": "Rafatul Alam Fahima, A.H.M. Zadidul Karim, Tanima Tasmin Chowdhury, Kazi Bil Oual Mahmud*, Fahmida Khanam, Khondaker Md. Abdur Rahman",
