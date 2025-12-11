@@ -66,8 +66,8 @@ export const facultyData: FacultyMember = {
   "points": 76,
   "image": "/images/faculties/mr-masum-howlader.jpg",
   "bio": "MD. Masum Howlader is an Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He is currently pursuing his PhD at Bangladesh University of Engineering and Technology (BUET) and holds dual Master's degrees in Smart Electrical Networks and Systems from KTH Royal Institute of Technology and Karlsruhe Institute of Technology, funded by KIC Inno Energy Scholarship. His research focuses on smart grids, power systems, and energy management.",
-  "email": "masum.howlader@uap-bd.edu",
-  "phone": "+880-2-8431645",
+  "email": "masum_eee@uap-bd.edu",
+  "phone": "",
   "room": "Room 123, EEE Department",
   "education": [
     {
