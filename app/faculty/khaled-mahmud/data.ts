@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 53,
   "image": "/images/faculties/khaled-mahmud.jpg",
   "bio": "Lecturer in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. BUET graduate with expertise in nanoscale simulation, characterization and fabrication. University Merit Scholarship recipient and Dean's award winner with research focus on 2D materials and drug delivery systems.",
-  "email": "khaled.mahmud@uap-bd.edu",
+  "email": "khaled_mahmud@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
