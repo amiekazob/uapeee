@@ -66,8 +66,8 @@ export const facultyData: FacultyMember = {
   "points": 72,
   "image": "/images/faculties/ms-tanima-tasmin-chowdhury.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Specializes in biomedical signal processing, deep neural networks, and EEG signal analysis with extensive research experience in epileptic seizure detection and classification.",
-  "email": "tanima.chowdhury@uap-bd.edu",
-  "phone": "+880-2-8431645",
+  "email": "tanima-eee@uap-bd.edu",
+  "phone": "",
   "room": "Room 408, EEE Building",
   "education": [
     {
