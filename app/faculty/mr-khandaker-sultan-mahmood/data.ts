@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 73,
   "image": "/images/faculties/mr-khandaker-sultan-mahmood.jpg",
   "bio": "Mr. Khandaker Sultan Mahmood is an Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He has been serving the department since 2012, initially as a Lecturer and later promoted to Assistant Professor in 2017. He is currently pursuing his Master of Science (M.Sc.) in Electrical and Electronic Engineering from Islamic University of Technology (IUT). His research interests include wireless communication systems, LDPC codes, smart grid technologies, and renewable energy integration. He has been actively involved in various professional activities including organizing technical events and serving as an examiner for national competitions.",
-  "email": "mr.khandaker.sultan.mahmood@uap-bd.edu",
+  "email": "khandaker.eee@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
