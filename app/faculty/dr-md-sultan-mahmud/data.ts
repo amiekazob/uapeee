@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 66,
   "image": "/images/faculties/dr-md-sultan-mahmud.jpg",
   "bio": "Dr. Md Sultan Mahmud is an Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He holds a Ph.D. in Micro Nano Mechanical Science and Engineering from Nagoya University, Japan, and has extensive research experience in metal oxide semiconductor nanostructures for solar water splitting and hydrogen fuel production. His research interests span renewable energy systems, nanotechnology, and green energy technologies.",
-  "email": "dr.md.sultan.mahmud@uap-bd.edu",
+  "email": "sultan_mahmud@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
@@ -124,7 +124,7 @@ export const facultyData: FacultyMember = {
     }
   ],
   "professionalMemberships": [
-    "Member, IEEE (2024)",
+    "Member, IEEE",
     "Member, Japan Society of Mechanical Engineers (2022-2023)",
     "Member, Green Energy Forum, Pondicherry (Central Govt.) University (2016-2017)"
   ],
