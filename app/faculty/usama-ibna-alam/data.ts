@@ -73,7 +73,7 @@ export const facultyData: FacultyMember = {
   "points": 49,
   "image": "/images/faculties/usama-ibna-alam.jpg",
   "bio": "Lecturer in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. His research focuses on Large Language Models applications in education and translation, AI for wireless communication systems, and multimodal systems development.",
-  "email": "usama.ibna.alam@uap-bd.edu",
+  "email": "usama@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
