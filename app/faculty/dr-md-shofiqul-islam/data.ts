@@ -87,7 +87,7 @@ export const facultyData: FacultyMember = {
   "points": 94,
   "image": "/images/faculties/dr-md-shofiqul-islam.jpg",
   "bio": "Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Dr. Islam has extensive experience in electronic device modeling, MEMS sensors, organic solar cells, and photonic crystal fiber-based sensors. He holds a PhD from Toyohashi University of Technology, Japan, and has over 25 years of academic and research experience.",
-  "email": "dr.md.shofiqul.islam@uap-bd.edu",
+  "email": "dmsi@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
