@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 50,
   "image": "/images/faculties/dewan-ashikur-rahaman.jpg",
   "bio": "Lecturer in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He is a distinguished alumnus of UAP, having completed both his B.Sc. and currently pursuing his M.Sc. from the same institution. He has been recognized with multiple Vice Chancellor Awards and the prestigious Gold Medal Award. His research focuses on power systems, harmonics mitigation, and smart grid technologies.",
-  "email": "dewan.ashikur.rahaman@uap-bd.edu",
+  "email": "ashik@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
