@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 79,
   "image": "/images/faculties/mr-muhammad-towhidur-rahman.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Specializes in Biomedical Physics and Technology with extensive experience in biomedical engineering applications.",
-  "email": "towhidur.rahman@uap-bd.edu",
+  "email": "towhid@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
