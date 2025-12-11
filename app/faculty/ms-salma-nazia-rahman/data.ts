@@ -79,7 +79,7 @@ export const facultyData: FacultyMember = {
   "points": 80,
   "image": "/images/faculties/ms-salma-nazia-rahman.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Currently pursuing PhD in EEE from BUET with research focus on novel controller design using non-linear control strategies. Has extensive experience in power electronics, electronic ballasts, and biomedical signal processing.",
-  "email": "ms.salma.nazia.rahman@uap-bd.edu",
+  "email": "salma@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
