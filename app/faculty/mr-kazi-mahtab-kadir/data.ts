@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 67,
   "image": "/images/faculties/mr-kazi-mahtab-kadir.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He holds a Master of Engineering (M.Engg.) in Electrical Engineering from the University of Houston, USA, and a Bachelor of Science in Electrical and Electronic Engineering from the Islamic University of Technology (IUT). He has professional experience in the USA as an Electrical Engineer at Antares USA and as a Co-Op Intern at Halliburton Energy Services. He is certified as an Engineer in Training (EIT) by the Texas Board of Professional Engineers and has received multiple academic scholarships including the OIC scholarship and Texas Public Educational Grant.",
-  "email": "mr.kazi.mahtab.kadir@uap-bd.edu",
+  "email": "kmkadir@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
