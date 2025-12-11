@@ -67,7 +67,7 @@ export const facultyData: FacultyMember = {
   "points": 87,
   "image": "/images/faculties/dr-md-shafiul-alam.jpg",
   "bio": "Dr. Md. Shafiul Alam is an Associate Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He holds a PhD in Electrical Engineering from King Fahd University of Petroleum & Minerals (KFUPM), Saudi Arabia. With extensive international experience spanning over 16 years in academia and research, Dr. Alam has worked in prestigious institutions in Saudi Arabia and Bangladesh. His research expertise encompasses power systems, electrical engineering, and energy technologies. He has served in various academic and research positions, including as a Postdoctoral Fellow and Researcher at KFUPM's Research Institute and K.A.CARE Energy Research & Innovation Center.",
-  "email": "dr.md.shafiul.alam@uap-bd.edu",
+  "email": "shafiul@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
