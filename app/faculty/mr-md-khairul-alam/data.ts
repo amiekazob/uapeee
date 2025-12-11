@@ -67,7 +67,7 @@ export const facultyData: FacultyMember = {
   "image": "/images/faculties/mr-md-khairul-alam.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Currently pursuing PhD in EEE from BUET. Specializes in power electronics, photovoltaic applications, and intelligent traffic control systems. Has extensive experience in developing commercial IoT products and providing professional consultancy services.",
   "email": "khairul@uap-bd.edu",
-  "phone": "01719440345",
+  "phone": "",
   "room": "",
   "education": [
     {
