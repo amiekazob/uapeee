@@ -68,7 +68,7 @@ export const facultyData: FacultyMember = {
   "points": 95,
   "image": "/images/faculties/dr-g-r-ahmed-jamal.jpg",
   "bio": "Faculty member in the Department of Electrical and Electronic Engineering at the University of Asia Pacific.",
-  "email": "dr.g.r.ahmed.jamal@uap-bd.edu",
+  "email": "ahmed.eee@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
