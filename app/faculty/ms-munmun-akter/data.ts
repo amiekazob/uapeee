@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 51,
   "image": "/images/faculties/ms-munmun-akter.jpg",
   "bio": "Ms. Munmun Akter is a dedicated Lecturer in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. She is currently pursuing her Master of Science (M.Sc.) in Electrical and Electronic Engineering from the Islamic University of Technology (IUT). She completed her Bachelor of Science (B.Sc.) in EEE from UAP with exceptional academic performance, earning the Chancellor's Gold Medal for securing the highest grade in her institution. Her research focuses on high gain rectangular microstrip patch antenna design and satellite communication systems. She has been actively involved in IEEE activities, serving as Meeting Coordinator for WIE, IEEE Bangladesh Section. Her academic excellence is reflected in her numerous scholarships and awards, including the Vice Chancellor's Scholarship throughout her undergraduate studies.",
-  "email": "ms.munmun.akter@uap-bd.edu",
+  "email": "munuapeee@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
