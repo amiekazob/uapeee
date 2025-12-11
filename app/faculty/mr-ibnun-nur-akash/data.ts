@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 54,
   "image": "/images/faculties/mr-ibnun-nur-akash.jpg",
   "bio": "Faculty member in the Department of Electrical and Electronic Engineering at the University of Asia Pacific.",
-  "email": "mr.ibnun.nur.akash@uap-bd.edu",
+  "email": "akash@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
