@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 68,
   "image": "/images/faculties/mr-m-abdullah-al-amin.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He has been serving the department since 2009, initially as a Lecturer and promoted to Assistant Professor in 2014. His research focuses on short-term load forecasting using neural networks and machine learning applications in electrical engineering.",
-  "email": "mr.m.abdullah.al.amin@uap-bd.edu",
+  "email": "masumeee@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
