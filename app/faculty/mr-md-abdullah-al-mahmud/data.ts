@@ -67,7 +67,7 @@ export const facultyData: FacultyMember = {
   "image": "/images/faculties/mr-md-abdullah-al-mahmud.jpg",
   "bio": "Md. Abdullah Al Mahmud is an Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Born on September 28, 1991, he is a Bangladeshi national who has dedicated his career to electrical and electronic engineering education and research. He completed his Bachelor's degree in EEE from the University of Asia Pacific in 2013, achieving an outstanding CGPA of 3.93 and securing the 1st position in his class, for which he was awarded the Vice Chancellor Gold Medal in the graduating class of Spring 2013. He further pursued his Master's degree in EEE from the Islamic University of Technology (IUT) in 2021. His academic journey began with excellent performance in his SSC (2006) and HSC (2008) examinations from Engineering University School and College under Dhaka Board, achieving GPAs of 5.00 and 4.80 respectively. He has completed professional development through a short course on image processing at Islamic University of Technology (IUT) in 2014 and is proficient in various computer applications including MS Word, Excel, and MATLAB.",
   "email": "abdullah-eee@uap-bd.edu",
-  "phone": "+88 01552404513",
+  "phone": "",
   "room": "",
   "education": [
     {
