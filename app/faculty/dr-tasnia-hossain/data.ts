@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 77,
   "image": "/images/faculties/dr-tasnia-hossain.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. She holds a PhD from CNRS-CRHEA, University of Nice Sophia Antipolis, France, where she conducted research on GaN based structures on patterned silicon substrate. She is a recipient of the prestigious Erasmus Mundus scholarship from the European Commission. Her research expertise spans semiconductor device physics, digital signatures, and network protocols.",
-  "email": "dr.tasnia.hossain@uap-bd.edu",
+  "email": "tasnia@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
