@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 75,
   "image": "/images/faculties/mr-muhammad-ahad-rahman-miah.jpg",
   "bio": "Muhammad Ahad Rahman Miah is an Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He is currently pursuing his PhD in EEE from BUET and holds a Master of Engineering in Energy Technology from the Asian Institute of Technology (AIT), Bangkok, Thailand. He obtained his Bachelor's degree from UAP with the distinction of achieving 1st position and receiving the Vice-Chancellor's Gold Medal. With over a decade of experience at UAP, he has contributed significantly to research in renewable energy systems, smart grid technology, and power system analysis. He is an IEEE Professional Member and has been involved in various international research projects coordinated by IRENA and UNEP DTU.",
-  "email": "ahad@uap-bd.edu@uap-bd.edu",
+  "email": "ahad@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
