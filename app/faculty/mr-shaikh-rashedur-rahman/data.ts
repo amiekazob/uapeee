@@ -66,8 +66,8 @@ export const facultyData: FacultyMember = {
   "points": 74,
   "image": "/images/faculties/mr-shaikh-rashedur-rahman.jpg",
   "bio": "Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. Specializes in power systems stability analysis, coherency identification in multi-machine power systems, and renewable energy integration with extensive research experience in transient stability assessment.",
-  "email": "shaikh.rahman@uap-bd.edu",
-  "phone": "+880-2-8431645",
+  "email": "shaikh.eee@uap-bd.edu",
+  "phone": "",
   "room": "Room 410, EEE Building",
   "education": [
     {
