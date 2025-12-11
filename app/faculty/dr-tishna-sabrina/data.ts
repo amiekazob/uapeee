@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 71,
   "image": "/images/faculties/dr-tishna-sabrina.jpg",
   "bio": "Dr. Tishna Sabrina is an Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. She holds a PhD from Monash University (2009-2014) and a B.Sc. in Electrical and Electronic Engineering from BUET (2000-2005). Her research focuses on privacy preservation without compromising data integrity. She has extensive professional experience including her current role at UAP since April 2018, previous position at United International University (2014-2018), and industry experience as an Engineer at Robi Axiata Limited (2005-2009). She is a BAETE Program Evaluator and has received numerous academic scholarships including Monash Graduate Scholarship and multiple Dean's list scholarships.",
-  "email": "dr.tishna.sabrina@uap-bd.edu",
+  "email": "tishna@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
