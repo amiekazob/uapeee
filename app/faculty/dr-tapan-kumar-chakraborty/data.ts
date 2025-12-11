@@ -66,7 +66,7 @@ export const facultyData: FacultyMember = {
   "points": 93,
   "image": "/images/faculties/dr-tapan-kumar-chakraborty.jpg",
   "bio": "Dr. Tapan Kumar Chakraborty is a distinguished Professor in the Department of Electrical and Electronic Engineering at the University of Asia Pacific. He holds a Ph.D. in Electrical and Computer Engineering from Kanazawa University, Japan (1995-1998), where he conducted research on microelectronic circuits and devices. With over three decades of academic experience, he has served in various prestigious positions including Professor at Presidency University and Dhaka University of Engineering & Technology. His research expertise spans power electronics, multilevel inverters, microcontroller-based system design, and SCR-based line commutated inverters. He is a Fellow of the Institution of Engineers, Bangladesh (IEB) and a Member of IEEE, USA. Dr. Chakraborty has been recognized with numerous academic honors including the Japanese government scholarship (Monbusho) for his Ph.D. studies and the University Gold Medal from University of Roorkee (now IIT Roorkee) for his Master's degree. He has extensive professional consultancy experience, having worked as a consultant for layout design, estimation, installation, testing and commissioning of Fire detection & Alarm, CCTV, Access control and Public address systems at Bangladesh Bank Head office, Motijheel, Dhaka during 2004-2005. He also has practical experience in testing different types of electric cables and insulators, and performed Heat Cycle Tests for H-type aluminum connectors as per NEMA Standard during 2002-2005.",
-  "email": "dr.tapan.kumar.chakraborty@uap-bd.edu",
+  "email": "tkc@uap-bd.edu",
   "phone": "",
   "room": "",
   "education": [
