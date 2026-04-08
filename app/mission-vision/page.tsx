@@ -226,9 +226,15 @@ export default function MissionVisionPage() {
               </div>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  To be a globally recognized center of excellence in electrical and 
-                  electronic engineering education and research, known for producing 
-                  innovative leaders and groundbreaking technological solutions.
+                  The vision of Electrical and Electronic Engineering                 
+                  Department at University of Asia Pacific is to reach at an    
+                  educational excellence in full compliance to the                        
+                  international standards of quality assurance. The                    
+                  Department will produce quality graduates capable of 
+                  taking the challenges of the rapidly changing field of       
+                  Electrical and Electronic Engineering as well as capable 
+                  of making significant contributions to individual and   
+                  societal empowerment. 
                 </p>
          
                
