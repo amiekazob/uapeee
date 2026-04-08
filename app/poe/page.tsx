@@ -65,7 +65,13 @@ export default function POEPage() {
               <li>
                 The long-term goal of the EEE department is to become a major
                 center of higher education and research in Electrical and
-                Electronic Engineering both nationally and internationally.
+                Electronic Engineering both nationally and internationally.The department is modelled to provide 
+excellent teaching and research facilities for students with  teachers of the 
+highest quality along with well-equipped and spacious classrooms with 
+modern instructional tools, library, laboratories and research centers in 
+various branches of Electrical and Electronic Engineering. The department 
+already has the necessary faculty, classroom and laboratory facilities to run 
+undergraduate and graduate programs simultaneously. 
               </li>
             </ul>
           </div>
