@@ -32,13 +32,13 @@ export default function POEPage() {
           <div className="bg-white rounded-lg shadow-md p-8 mb-8">
             <h2 className="text-2xl font-bold text-blue-900 mb-4">Department Mission</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The Department of Electrical and Electronic Engineering at the University of Asia Pacific aims to provide quality education at an affordable cost in the areas of Electrical and Electronic Engineering through the following mission statements:
+                   The Department of Electrical and Electronic Engineering at University of Asia Pacific aims to provide quality education at affordable cost in the areas of  Electrical and  Electronic Engineering through following mission statements:             
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700">
-              <li>To enhance the competitiveness of our graduates in the job market and contribute to the economic, scientific, and social development of the country.</li>
-              <li>To maintain a positive academic environment that promotes excellence in learning and research through constructive interaction between students, faculty, industry, and community.</li>
-              <li>To utilize the available resources to instill the latest technical knowledge and research capabilities, to encourage critical thinking, problem solving skills, and ethical responsibility and to develop students' verbal and written communication skills.</li>
-            </ul>
+               <li>Mission Statement-1: To enhance the competitiveness of our graduates in the job market and contribute to the economic, scientific, and social development of the country.</li>
+              <li> Mission Statement-2: To maintain a positive academic environment that promotes excellence in learning and research through constructive interaction between students, faculty, industry, and community..</li>
+              <li>Mission Statement-3: To utilize the available resources to instil latest technical knowledge and research capabilities, to encourage critical thinking, problem solving skills, and ethical responsibility and to develop students’ verbal and written communication skills. ll the latest technical knowledge and research capabilities, to encourage critical thinking, problem solving skills, and ethical responsibility and to develop students' verbal and written communication skills.</li>
+            </ul
           </div>
 
           {/* Program Educational Objectives */}
