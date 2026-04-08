@@ -183,8 +183,9 @@ export default function MissionVisionPage() {
               </div>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  To provide world-class education in electrical and electronic engineering, 
-                  fostering innovation, critical thinking, and ethical leadership among our students.
+                   The Department of Electrical and Electronic Engineering at University of Asia 
+                   Pacific aims to provide quality education at affordable cost in the areas of 
+                       Electrical and  Electronic Engineering through following mission statements: 
                 </p>
                 <p>
                   We are committed to advancing knowledge through cutting-edge research, 
