@@ -185,7 +185,7 @@ export default function MissionVisionPage() {
                 <p>
                    The Department of Electrical and Electronic Engineering at University of Asia 
                    Pacific aims to provide quality education at affordable cost in the areas of 
-                       Electrical and  Electronic Engineering through following mission statements: 
+                   Electrical and  Electronic Engineering through following mission statements: 
                 </p>
                 <p>
                   We are committed to advancing knowledge through cutting-edge research, 
