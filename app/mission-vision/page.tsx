@@ -188,6 +188,11 @@ export default function MissionVisionPage() {
                    Electrical and  Electronic Engineering through following mission statements: 
                 </p>
                 <p>
+                  Mission Statement-1: To enhance the competitiveness of our graduates in the 
+                  job market and contribute to the economic, scientific, and social development 
+                  of the country. 
+                </p>         
+                <p>
                   Mission Statement-2: To maintain a positive academic environment that 
                   promotes excellence in learning and research through constructive 
                   interaction between students, faculty, industry, and community. 
