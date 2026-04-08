@@ -188,15 +188,29 @@ export default function MissionVisionPage() {
                    Electrical and  Electronic Engineering through following mission statements: 
                 </p>
                 <p>
-                  We are committed to advancing knowledge through cutting-edge research, 
-                  developing sustainable technological solutions, and preparing graduates 
-                  who will drive positive change in society.
+                  Mission Statement-2: To maintain a positive academic environment that 
+                  promotes excellence in learning and research through constructive 
+                  interaction between students, faculty, industry, and community. 
                 </p>
                 <p>
-                  Our mission encompasses creating an inclusive learning environment that 
-                  encourages collaboration, creativity, and the pursuit of excellence in 
-                  all academic and professional endeavors.
+                  Mission Statement-3: To utilize the available resources to instil latest    
+                  technical knowledge and research capabilities, to encourage critical thinking, 
+                  problem solving skills, and ethical responsibility and to develop students’ 
+                  verbal and written communication skills. 
                 </p>
+                 <p>
+                  The long-term goal of the EEE department is to become a major center of 
+                  higher education and research in Electrical and Electronic Engineering both 
+                  nationally and internationally. The department is modelled to provide 
+                  excellent teaching and research facilities for students with  teachers of the 
+                  highest quality along with well-equipped and spacious classrooms with 
+                  modern instructional tools, library, laboratories and research centers in 
+                  various branches of Electrical and Electronic Engineering. The department 
+                  already has the necessary faculty, classroom and laboratory facilities to run 
+                  undergraduate and graduate programs simultaneously. 
+                </p>
+
+                
               </div>
             </div>
 
