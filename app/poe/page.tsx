@@ -16,7 +16,15 @@ export default function POEPage() {
           <div className="bg-white rounded-lg shadow-md p-8 mb-8">
             <h2 className="text-2xl font-bold text-blue-900 mb-4">Department Vision</h2>
             <p className="text-gray-700 leading-relaxed">
-              The vision of
+              The vision of Electrical and Electronic Engineering                 
+              Department at University of Asia Pacific is to reach at an    
+              educational excellence in full compliance to the                        
+              international standards of quality assurance. The                    
+              Department will produce quality graduates capable of 
+              taking the challenges of the rapidly changing field of       
+              Electrical and Electronic Engineering as well as capable 
+              of making significant contributions to individual and   
+              societal empowerment. 
             </p>
           </div>
 
