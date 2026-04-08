@@ -216,16 +216,8 @@ export default function MissionVisionPage() {
                   electronic engineering education and research, known for producing 
                   innovative leaders and groundbreaking technological solutions.
                 </p>
-                <p>
-                  We envision a future where our graduates are at the forefront of 
-                  technological innovation, contributing to sustainable development, 
-                  and addressing the world's most pressing engineering challenges.
-                </p>
-                <p>
-                  Our vision is to create a dynamic ecosystem that bridges academia 
-                  and industry, fostering entrepreneurship and driving economic growth 
-                  through technological advancement.
-                </p>
+         
+               
               </div>
             </div>
           </div>
