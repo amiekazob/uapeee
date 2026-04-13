@@ -41,7 +41,8 @@ export default function POEPage() {
               University of Asia Pacific aims to provide quality education at
               affordable cost in the areas of Electrical and Electronic
               Engineering through following mission statements:
-            </p>
+            </p> 
+            
 
             <ul className="list-disc pl-6 space-y-2 text-gray-700">
               <li>
@@ -79,7 +80,7 @@ undergraduate and graduate programs simultaneously.
           {/* Program Educational Objectives */}
           <div className="bg-white rounded-lg shadow-md p-8 mb-8">
             <h2 className="text-2xl font-bold text-blue-900 mb-6">
-              Program Educational Objectives (PEO) for the B.Sc. in EEE
+              Program Educational Objectives (PEOs) for the B.Sc. in EEE
             </h2>
 
             <p>
@@ -87,7 +88,8 @@ undergraduate and graduate programs simultaneously.
             knowledge, understanding capability, professional qualities and research skills in three major fields of 
             knowledge including Electronics, Power and Communication Engineering. Few years after successful 
             graduation from this program, students are expected to attain following abilities in their early career: 
-            </p>
+            </p> 
+            <br></br>
 
             <div className="space-y-4">
               <div className="border-l-4 border-orange-500 pl-4">
