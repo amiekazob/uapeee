@@ -104,7 +104,7 @@ export function Navbar() {
                         Mission & Vision
                       </LoadingLink>
                       <LoadingLink href="/poe" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
-                        POE
+                        PEOs
                       </LoadingLink>
                     </div>
                   </div>
