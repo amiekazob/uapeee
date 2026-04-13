@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Program Educational Objectives (POE) | Department of EEE - UAP",
+  title: "Program Educational Objectives (PEOs) | Department of EEE - UAP",
   description:
     "Program Educational Objectives, Vision, and Mission of the Department of Electrical and Electronic Engineering at University of Asia Pacific",
 }
@@ -12,7 +12,7 @@ export default function POEPage() {
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold text-gray-900 mb-8">
-            Program Educational Objectives (POE)
+            Program Educational Objectives (PEOs)
           </h1>
 
           {/* Department Vision */}
@@ -82,41 +82,55 @@ undergraduate and graduate programs simultaneously.
               Program Educational Objectives (PEO) for the B.Sc. in EEE
             </h2>
 
+            <p>
+            The academic programs in EEE Discipline offer opportunities for students to develop and demonstrate 
+            knowledge, understanding capability, professional qualities and research skills in three major fields of 
+            knowledge including Electronics, Power and Communication Engineering. Few years after successful 
+            graduation from this program, students are expected to attain following abilities in their early career: 
+            </p>
+
             <div className="space-y-4">
               <div className="border-l-4 border-orange-500 pl-4">
                 <h3 className="font-semibold text-gray-900 mb-2">PEO-1:</h3>
                 <p className="text-gray-700">
-                  Apply effectively their knowledge, tools and techniques to
-                  solve real world complex engineering problems.
+                  Apply effectively their knowledge, tools and techniques to solve real world complex engineering 
+                   problems while engaging in professional design within the field of Electrical and Electronic Engineering.
                 </p>
               </div>
 
               <div className="border-l-4 border-orange-500 pl-4">
                 <h3 className="font-semibold text-gray-900 mb-2">PEO-2:</h3>
                 <p className="text-gray-700">
-                  Conduct research-based investigations and contribute to
-                  advancements and innovation.
+                  Conduct research-based investigations, design experiments, analyze data, and synthesize 
+                  information to contribute to advancements and innovation in the field of Electrical and Electronic 
+                  Engineering.  
                 </p>
               </div>
 
               <div className="border-l-4 border-orange-500 pl-4">
                 <h3 className="font-semibold text-gray-900 mb-2">PEO-3:</h3>
                 <p className="text-gray-700">
-                  Demonstrate commitment to ethical practices and sustainability.
+                  Demonstrate a commitment to ethical practices, societal well-being, and environmental 
+                  sustainability in their proposed solutions and professional endeavours, aligning with global engineering 
+                  standards and best practices.  
                 </p>
               </div>
 
               <div className="border-l-4 border-orange-500 pl-4">
                 <h3 className="font-semibold text-gray-900 mb-2">PEO-4:</h3>
                 <p className="text-gray-700">
-                  Work collaboratively and communicate effectively.
+                  Work independently or collaboratively in interdisciplinary teams, manage projects and provide 
+                  economic decisions while effectively communicating solutions to both technical and non-technical 
+                  audiences.  
                 </p>
               </div>
 
               <div className="border-l-4 border-orange-500 pl-4">
                 <h3 className="font-semibold text-gray-900 mb-2">PEO-5:</h3>
                 <p className="text-gray-700">
-                  Engage in continuous learning and professional development.
+                   Engage in continuous learning, staying abreast of emerging technologies, industry trends, and 
+                   professional best practices, and will actively pursue opportunities for professional development and 
+                  growth in their careers. 
                 </p>
               </div>
             </div>
